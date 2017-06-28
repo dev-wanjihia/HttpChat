@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/layout_send_bg"
+    android:id="@+id/chat_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:padding="10dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp">
+
+    <EditText
+        android:id="@+id/edit_message"
+        android:layout_weight="8"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentLeft="true"
+        android:background="@android:color/transparent"
+        android:layout_toLeftOf="@+id/btn_send_message"
+        android:layout_centerVertical="true"
+        android:textCursorDrawable="@drawable/cursor_drawable"
+        />
+
+    <ImageButton
+        android:id="@+id/btn_send_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_send"
+        android:layout_alignParentRight="true"
+        android:onClick="sendMessage"
+        android:background="@drawable/btn_send_bg"
+        android:layout_centerVertical="true"
+        />
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_margin">10dp</dimen>
+    <dimen name="dpic_width">40dp</dimen>
+    <dimen name="dpic_height">35dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="label_width">40dp</dimen>
+    <dimen name="label_height">40dp</dimen>
+    <dimen name="dot_radius">8dp</dimen>
+
+    <dimen name="default_corner_radius">10dp</dimen>
+    <dimen name="circle_spec_size">17dp</dimen>
+    <dimen name="circle_diameter">3dp</dimen>
+
+    <dimen name="profile_size">55dp</dimen>
+
+</resources>

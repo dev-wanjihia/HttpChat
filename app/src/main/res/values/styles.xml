@@ -1,0 +1,98 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    </style>
+
+
+    <style name="input_field_style">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/input_field_bg</item>
+        <item name="android:layout_marginBottom">30dp</item>
+    </style>
+
+    <style name="btn_sign_up_style" parent="input_field_style">
+        <item name="android:background">@drawable/btn_sign_up_bg</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="dot_style">
+        <item name="android:layout_width">12dp</item>
+        <item name="android:layout_height">12dp</item>
+        <item name="android:button">@drawable/dot_check_box</item>
+        <item name="android:layout_marginRight">13dp</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:enabled">false</item>
+    </style>
+
+    <style name="sign_dots" parent="dot_style">
+        <item name="android:button">@drawable/sign_up_dot_bg</item>
+        <item name="android:layout_width">10dp</item>
+        <item name="android:layout_height">10dp</item>
+    </style>
+
+    <style name="border_style">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0.75dp</item>
+        <item name="android:background">@color/alt_blue</item>
+        <item name="android:scaleY">0.4</item>
+        <item name="android:layout_marginRight">15dp</item>
+    </style>
+
+    <style name="edit_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:inputType">text</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">#757575</item>
+        <item name="android:textSize">15.5dp</item>
+        <item name="android:textIsSelectable">false</item>
+        <item name="android:textCursorDrawable">@drawable/cursor_drawable</item>
+    </style>
+
+    <style name="list_item_container">
+        <item name="android:layout_height">65dp</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@drawable/list_item_bg</item>
+    </style>
+
+    <style name="text_user_name_thread">
+        <item name="android:text">Wanjihia</item>
+        <item name="android:layout_toRightOf">@+id/image_profile_picture</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.DeviceDefault.Widget.PopupMenu.Large</item>
+    </style>
+
+    <style name="profile_picture_style">
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_height">@dimen/profile_size</item>
+        <item name="android:layout_width">@dimen/profile_size</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="last_message_style">
+        <item name="android:layout_alignBottom">@+id/image_profile_picture</item>
+        <item name="android:layout_alignLeft">@+id/text_user_name</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:text">My name is Samson Wanjiha and I am an Android Developer. I pray that one day I\'ll be there working with the big boss himself at Google.</item>
+    </style>
+    <style name="unread_msg_txt_view">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:background">@drawable/unread_notification_bg</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:maxLines">1</item>
+    </style>
+</resources>

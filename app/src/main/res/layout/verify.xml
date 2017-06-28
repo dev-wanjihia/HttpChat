@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/edit_user_name_container"
+        android:layout_above="@+id/edit_verification_code_container"
+        style="@style/input_field_style" >
+
+        <CheckBox
+            android:id="@+id/check_user_name"
+            style="@style/dot_style"
+            />
+
+        <TextView style="@style/border_style"/>
+
+        <EditText
+            android:id="@+id/edit_user_name"
+            style="@style/edit_style"
+            android:maxLength="70"
+            android:inputType="text"
+            android:hint="@string/username"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/edit_verification_code_container"
+        style="@style/input_field_style" >
+        <CheckBox
+            android:id="@+id/check_code"
+            style="@style/dot_style"
+            />
+
+        <TextView style="@style/border_style"/>
+
+        <EditText
+            android:id="@+id/edit_verification_code"
+            style="@style/edit_style"
+            android:cursorVisible="false"
+            android:hint="@string/ver_code"
+            android:inputType="number"
+            android:maxLength="6">
+            <requestFocus />
+            </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_verify_container"
+        style="@style/btn_sign_up_style"
+        android:layout_below="@+id/edit_verification_code_container">
+
+        <CheckBox
+            android:id="@+id/check_verify"
+            style="@style/sign_dots"
+            />
+
+        <TextView
+            style="@style/border_style"
+            android:layout_marginRight="0dp"/>
+
+        <Button
+            android:layout_width="215dp"
+            android:layout_height="match_parent"
+            android:text="@string/verify"
+            android:textColor="@android:color/white"
+            android:background="@android:color/transparent"
+            android:clickable="false"
+            />
+
+        <TextView
+            style="@style/border_style"
+            android:layout_marginRight="0dp"/>
+
+        <CheckBox
+            android:id="@+id/check_verify_1"
+            style="@style/sign_dots"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

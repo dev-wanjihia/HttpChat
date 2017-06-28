@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="faded_blue">#bf6acff1</color>
+    <color name="alt_blue">#0078a1</color>
+    <color name="faded_purple">#bf9cadec</color>
+
+    <color name="invalid_input">#ef5350</color>
+    <color name="no_input_yet">#cacaca</color>
+    <color name="input_okay">#66ff66</color>
+    <color name="main_green">#1aff00</color>
+    <color name="alt_green">#c0ffc0</color>
+    <color name="faint_gray">#dfdfdf</color>
+    <color name="white">#ffffff</color>
+</resources>

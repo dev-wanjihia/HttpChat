@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="false">
+        <shape android:shape="oval">
+            <solid android:color="@color/invalid_input" />
+            <size
+                android:height="@dimen/dot_radius"
+                android:width="@dimen/dot_radius" />
+        </shape>
+    </item>
+    <item android:state_checked="true">
+        <shape android:shape="oval">
+            <solid android:color="@color/input_okay" />
+            <size
+                android:height="@dimen/dot_radius"
+                android:width="@dimen/dot_radius" />
+        </shape>
+    </item>
+</selector>

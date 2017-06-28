@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">HTTP Chat</string>
+    <string name="base_url">http://192.168.43.139/chat/</string>
+    <string name="email_taken">This email is already signed up. Try activating it on this phone to receive a new verification code.</string>
+    <string name="server_failed">Sorry the server has failed to respond. Please try again.</string>
+    <string name="username_taken">The username %1$s is already taken. Please try again with a different username.</string>
+    <string name="signing_up">Signing you up</string>
+    <string name="verifying">Account verification in progress. :-) </string>
+    <string name="wrong_ver_code">Verification code mismatch. Please try again.</string>
+    <string name="signed_up">You are already Signed up. Please proceed to the verification</string>
+    <string name="ver_code_sent">The verification code has been sent to %1$s</string>
+    <string name="sign_up_with_other_email">This email is already taken try signing up with another one.</string>
+    <string name="title_activity_tabbed">TabbedActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="service_desc">Don\'t stop this service otherwise you will stop getting message notifications.</string>
+    <string name="message_not_sent">Connection Error. Check your Internet Connection and try again.</string>
+    <string name="connection_error">Connection error. Please check your internet connection and try again later.</string>
+    <string name="resending_key">Please wait as the verification code is sent to %1$s.</string>
+
+    <string name="email">email</string>
+    <string name="username">username</string>
+    <string name="ver_code">verification code</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="verify">VERIFY</string>
+
+
+    <string name="remove_ppic">Remove Profile Picture</string>
+    <string name="update_ppic">Change Profile Picture</string>
+    <string name="my_profile">My Profile</string>
+    <string name="delete_acc">Delete My Account</string>
+    <string name="unauthorized_err">Your account is unauthorized to communicate with the server</string>
+    <string name="insufficient_storage">Insufficient Storage</string>
+    <string name="title_activity_bottom_toolbar">Bottom ToolBt</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

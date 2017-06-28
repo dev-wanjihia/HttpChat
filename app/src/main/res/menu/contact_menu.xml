@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_save_contact"
+        android:title="Save Contact"
+        android:icon="@drawable/ic_add_user"
+        android:visible="false"
+        />
+    <item
+        android:title="Delete"
+        android:id="@+id/menu_delete"
+        android:icon="@android:drawable/ic_menu_delete" />
+
+    <item
+        android:id="@+id/menu_forward"
+        android:icon="@android:drawable/ic_menu_send"
+        android:title="Forward" />
+
+    <item
+        android:id="@+id/menu_clear"
+        android:title="Delete All"
+        android:icon="@android:drawable/ic_delete" />
+
+    <item
+        android:id="@+id/menu_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Search" />
+</menu>
